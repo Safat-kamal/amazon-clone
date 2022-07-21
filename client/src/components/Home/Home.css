@@ -1,0 +1,99 @@
+.banner{
+    width: 98.75vw;
+}
+.banner >img{
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(#f2f2f2, transparent);
+}
+.hero{
+    position: relative;
+    display: flex;
+}
+.row__one{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    flex: 1;
+    bottom: -60px;
+    width: 98vw;
+    padding: 0 20px;
+}
+.card__one{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #fefefe;
+    margin: 0 7px;
+    max-width: 310px;
+    box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.card__one >h2{
+    font-size: 1.3em;
+    color: rgb(41, 41, 41);
+    margin: 5px 0;
+}
+.card__one > .first__row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__one  .a_section{
+    margin: 5px 10px;
+}
+.card__one .a_section > img{
+    width: 120px;
+    object-fit: contain;
+}
+.card__one .a_section > p{
+    width: 125px;
+    font-size: smaller;
+}
+.card__one > .second__row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__one > .full__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__one .b_section > img{
+    width: 100%;
+}
+.card__one .b_section >span{
+    color: blue;
+    margin-top: 15px;
+    font-size: small;
+    cursor: pointer;
+}
+.products__row1{
+    margin: 150px 40px 0 40px;
+}
+.products__row2{
+    margin: 20px 40px;
+}
+.products__row3{
+    margin: 20px 40px;
+}
+.products_rowTitle{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(31, 30, 30);
+}
+.products{
+    display: flex;
+}
+.slick-list{
+    width: 90vw;
+    padding: 20px;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: orangered;
+
+}

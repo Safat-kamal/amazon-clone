@@ -1,0 +1,93 @@
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.logo{
+    width: 150px;
+    object-fit: contain;
+}
+.signIn__container{
+    max-width: 400px;
+}
+.singIn_form{
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    max-width: 380px;
+    margin: 20px;
+    height: max-content;
+    background-color: #fffefe;
+    border-radius: 8px;
+}
+.sign_title{
+    font-size: 1.6em;
+    color: #000;
+    font-weight: 400;
+    margin: 0 0px 10px 0;
+}
+#signIn_form{
+    display: flex;
+    flex-direction: column;
+}
+#signIn_form label{
+    font-size: smaller;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#signIn_form input{
+    padding: 6px;
+    border: 1px solid #333;
+    outline-color: #ddac31;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.signIn_button{
+    margin: 15px 0;
+    padding: 6px 13px;
+    border: none;
+    outline: none;
+    background-color: #eebe46;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.signIn_button:focus{
+    background-color: #ddac31;
+}
+
+.condition, .privacy{
+    color: rgb(13, 13, 187);
+    cursor: pointer;
+    font-weight: 500;
+}
+.condition:hover, .privacy:hover{
+    text-decoration: underline;
+}
+.new_userTitle{
+    margin-top: 30px;
+    font-size: smaller;
+    text-align: center;
+}
+.underline{
+    height: 10px;
+    width: 100%;
+    background-color: red;
+}
+.create_button{
+    margin: 15px 23% !important;
+    padding: 6px 13px;
+    border: none;
+    outline: none;
+    background-color: rgb(199, 197, 197);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.create_button:hover{
+    background-color: rgb(177, 176, 176);
+}
+.create_button:focus{
+    outline-color: #ddac31;
+}

@@ -1,0 +1,121 @@
+.checkout{
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+    padding: 2vw;
+    height: 100vh;
+}
+.chekout__left{
+    flex: 0.75;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 2px #fefefe;
+    padding: 20px;
+    margin-right: 30px;
+    height: max-content;
+}
+.checkout__leftTitle{
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 1.7em;
+    color: rgb(58, 58, 58);
+}
+.product_row{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    border-bottom: 0.3px solid #eee;
+    padding: 5px 18px;
+}
+.product_row_empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 0.3px solid #eee;
+    padding: 5px 18px;
+}
+.product_row_empty button{
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+.product_image{
+    width: 80px;
+    object-fit: contain;
+}
+.product__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin: 0 45px;
+}
+.remove_product{
+    width: max-content;
+    margin:15px 0;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.availablity{
+    margin-top: 5px;
+    color: green;
+    font-weight: 500;
+}
+.remove_product:hover{
+    background-color: darkred;
+    transition: 0.2s ease-in-out 0.1s;
+}
+
+.checkout__right{
+    flex: 0.25;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 2px #fefefe;
+    padding: 20px;
+    height: max-content;
+}
+.subtotal_itemCount{
+    font-size: 1.2em;
+    color: rgb(0, 46, 145);
+    font-weight: 600;
+    margin: 15px 5px;
+}
+.subtotal_price{
+    font-size: 1.25em;
+    color: rgb(20, 23, 29);
+    font-weight: 700;
+    margin: 15px 5px;
+}
+.proceees_pay{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgb(250, 212, 43);
+    color: rgb(54, 54, 54);
+    border: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    
+}
+.proceees_pay:hover{
+    background-color: orange;
+    transition: 0.2s ease-in-out 0.01s;
+}

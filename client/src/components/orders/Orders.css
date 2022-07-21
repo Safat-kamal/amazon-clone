@@ -1,0 +1,32 @@
+.orders{
+    padding: 20px 50px;
+}
+.title{
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: navy;
+    font-weight: 500;
+}
+.table_head{
+    background-color: rgb(0, 59, 187);
+}
+.table_head th{
+    color: #fff !important;
+    font-weight: 500;
+
+}
+.view_order{
+    padding: 7px 10px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.view_order:hover{
+    background-color: rgb(194, 56, 5);
+}
+#table_footer{
+    background-color: #eee;
+}
